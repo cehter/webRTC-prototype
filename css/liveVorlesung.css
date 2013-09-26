@@ -1,0 +1,112 @@
+body{
+    color: #050606;
+}
+.format{
+    margin-left: 10px;
+}
+h2{
+    font-size: 150%;
+}
+.indexLink{
+    margin-right: 20px;
+    font-size: 130%;
+    background-color: #eeeeec;
+    width: 20px;
+    height: 10px;
+    padding: 1px 5px 2px 5px;
+    margin-bottom: 5px;
+    text-decoration: none;
+    color: #050606;
+    -moz-box-shadow: 0 0 5px #2e3436;
+    -webkit-box-shadow: 0 0 5px #2e3436;
+    box-shadow: 0 0 5px #2e3436;
+}
+.infoBox{
+    float:left;
+}
+.box {
+    float:left;
+    height: 255px;
+    background-color: #3465a4;
+    margin-top: 11px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 0px 20px 10px 20px;
+    -moz-box-shadow:4px 4px 3px 0px rgba(119, 119, 119, 0.89);
+    -webkit-box-shadow:4px 4px 3px 0px rgba(119, 119, 119, 0.89);
+    box-shadow:4px 4px 3px 0px rgba(119, 119, 119, 0.89);
+}
+textarea{
+    margin-top: 10px;
+    border-color: gray;
+}
+
+.box2{
+    float:left;
+}
+.videoBox{
+    height: 310px;
+    width: 350px;    
+}
+.video{
+    margin-left: auto;
+    margin-right: auto;  
+}
+.photo{
+    border:none;
+}
+.nameBox{
+    margin-top: 10px;
+}
+.boxImg1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;      
+}
+.boxImg2{
+    margin-top: -5px;  
+}
+.shadow1{
+    float: left;
+    width: 200px;
+    background-color: rgb(68,68,68); /* Needed for IEs */
+    -webkit-box-shadow: 0 8px 6px -6px black;
+	   -moz-box-shadow: 0 8px 6px -6px black;
+	        box-shadow: 0 8px 6px -6px black;
+	filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30);
+	-ms-filter: "progid:DXImageTransform.Microsoft.Blur(PixelRadius=3,MakeShadow=true,ShadowOpacity=0.30)";
+	zoom: 1;      
+}
+.shadow1{
+	position: relative; /* This protects the inner element from being blurred */
+	padding: 10px;
+	background-color: #DDD;
+}
+.videoAligning{
+    float: left;
+    background-color: rgb(68,68,68);
+    width: 50%;
+}
+.clear{
+    clear: both;
+}
+.hide{
+    visibility: hidden;
+}
+#chat { width: 97%; }
+.them { font-weight: bold; }
+.them:before { content: 'them '; color: #bbb; font-size: 14px; }
+.you { font-style: italic; }
+.you:before { content: 'Ich '; color: #bbb; font-size: 14px; font-weight: bold; }
+#log {
+  overflow: auto;
+  max-height: 300px;
+  list-style: none;
+  padding: 0;
+/*  margin: 0;*/
+}
+#log li {
+  margin: 0;
+  padding: 1px 0;
+}
